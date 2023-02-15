@@ -22,8 +22,9 @@ export default function Home() {
     <button onClick={()=>loadIdea(3)}>Libros</button>
     <button onClick={()=>loadIdea(4)}>Viajes</button>
     <button onClick={()=>loadIdea(5)}>Naturaleza</button>
-    <button onClick={()=>loadIdea(6)}>Dinoidea</button>
-    <p>Te amo mucho, mi vida, espero que te haya gustado esta pequeña carta, estará disponible siempre acá cuando desees verla, eres lo mejor, con mucho amor, tu novio.</p>
+    <button onClick={()=>loadIdea(6)}>Sentimientos</button>
+    <p>Te amo mucho, mi vida, espero que te haya gustado esta pequeña carta, las imágenes fueron producidas por inteligencia artificial, algunas de ellas inspiradas en cosas que sé que te gustan, como la silueta femenina o el color rosado, estará disponible siempre acá cuando desees verla.</p>
+    <p>Con mucho amor, tu novio.</p>
     </div>
   </section>
   <section className="container-2">
@@ -45,7 +46,7 @@ export default function Home() {
     <p>Ya que no hubo flores reales y de todos modos podrían dañarse, una flor producida por inteligencia artificial.</p>
   </div>
   <div id="idea-6" className="idea">
-    <p>Esto se leerá muy cursi pero... Te dino-amo.</p>
+    <p>Te amo mucho, y a lo largo de esta relación he descubierto lo que es el verdadero amor, aquel que va más allá de un sentimiento y se une a la razón.</p>
   </div>
  
   
