@@ -16,7 +16,7 @@
   z-index: 0;
   min-height: 100vh;
   font-family: 'Passion One', cursive;
- 
+  padding-bottom: 15vmin;
 }
 
 .container div{
@@ -55,7 +55,7 @@ button {
   cursor: pointer;
   display: block;
   width: 50%;
-  margin: 2vmin auto;
+  margin: 3vmin auto;
 }
 button:hover {
   background-color: rgba(225, 121, 121, 0.466);
@@ -64,7 +64,6 @@ button:hover {
 .idea {
   width: 100%;
   height: 100%;
-  background-color: #932626;
   position: absolute;
   display: none;
   color: rgb(255, 255, 255);
@@ -84,8 +83,36 @@ button:hover {
   width: 100%;
   height: 100%;
 }
+#idea-3{
+  background-image: url("../../public/book.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+#idea-4{
+  background-image: url("../../public/universe.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+#idea-5{
+  background-image: url("../../public/flowers.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+#idea-6{
+  background-image: url("../../public/dinolove.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
 .idea p {
-  color: #979797;
+  color: #ffffff;
   font-size: 2rem;
   margin: 25vh auto;
  padding: 4vmin;
@@ -93,4 +120,5 @@ button:hover {
  line-height: 3rem;
  letter-spacing: 0.2rem;
  font-family: 'Signika', sans-serif;
+ mix-blend-mode: difference;
 }
