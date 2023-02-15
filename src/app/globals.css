@@ -8,7 +8,7 @@
 }
 
 .container {
-  background-image: url("../../public/sil.png");
+  background-image: url("../../public/back.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -21,24 +21,24 @@
 
 .container div{
   color: #ffffff;
-  mix-blend-mode: difference;
+  /* mix-blend-mode: difference; */
   /* -webkit-text-fill-color: transparent;
   -webkit-background-clip: text; */
-  background-color: rgb(0, 0, 0);
+  /* background-color: rgb(0, 0, 0); */
   text-align: center;
   
 }
 .container div h1 {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   mix-blend-mode: difference;
-  background-color: rgba(235, 235, 235, 0.89);
+  /* background-color: rgba(235, 235, 235, 0.89); */
   padding: 7vmin;
   letter-spacing: 0.2rem;
   font-size: 3rem;
 }
 .container div p {
   color: rgb(255, 255, 255);
-  mix-blend-mode: difference;
+  mix-blend-mode: screen;
   padding: 7vmin;
   letter-spacing: 0.1rem;
   font-size: 2rem;
@@ -48,10 +48,11 @@
 }
 button {
   padding: 2vmin;
-  background-color: rgb(255, 255, 255);
+  background-color: transparent;
   border: 0;
   border-radius: 4px;
-
+  color: #ffffff;
+ mix-blend-mode: hard-light;
   cursor: pointer;
   display: block;
   width: 50%;
@@ -72,42 +73,49 @@ button:hover {
 #idea-1 {
   background-image: url("../../public/viejitos.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   width: 100%;
   height: 100%;
 }
 #idea-2{
   background-image: url("../../public/viejos.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   width: 100%;
   height: 100%;
 }
 #idea-3{
   background-image: url("../../public/book.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   width: 100%;
   height: 100%;
 }
 #idea-4{
   background-image: url("../../public/universe.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   width: 100%;
   height: 100%;
 }
 #idea-5{
   background-image: url("../../public/flowers.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   width: 100%;
   height: 100%;
 }
 #idea-6{
   background-image: url("../../public/bambi.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+}
+#idea-7{
+  background-image: url("../../public/puppies.png");
+  background-repeat: no-repeat;
+  background-size: contain;
   width: 100%;
   height: 100%;
 }

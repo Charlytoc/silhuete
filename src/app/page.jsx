@@ -22,6 +22,7 @@ export default function Home() {
     <button onClick={()=>loadIdea(3)}>Libros</button>
     <button onClick={()=>loadIdea(4)}>Viajes</button>
     <button onClick={()=>loadIdea(5)}>Naturaleza</button>
+    <button onClick={()=>loadIdea(7)}>Animales</button>
     <button onClick={()=>loadIdea(6)}>Sentimientos</button>
     <p>Te amo mucho, mi vida, espero que te haya gustado esta pequeña carta, las imágenes fueron producidas por inteligencia artificial, algunas de ellas inspiradas en cosas que sé que te gustan, como la silueta femenina o el color rosado, estará disponible siempre acá cuando desees verla.</p>
     <p>Con mucho amor, tu novio.</p>
@@ -47,6 +48,9 @@ export default function Home() {
   </div>
   <div id="idea-6" className="idea">
     <p>Te amo mucho, y a lo largo de esta relación he descubierto lo que es el verdadero amor, aquel que va más allá de un sentimiento y se une a la razón.</p>
+  </div>
+  <div id="idea-7" className="idea">
+    <p>Como sé que te gustan los perritos y los atardeces, te dejo esta imagen que me pareció bonita.</p>
   </div>
  
   
