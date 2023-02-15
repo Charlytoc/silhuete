@@ -76,35 +76,35 @@ button:hover {
   width: 100vw;
   background-image: url("../../public/viejitos.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   
   height: 100%;
 }
 #idea-2{
   background-image: url("../../public/viejos.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   width: 100%;
   height: 100%;
 }
 #idea-3{
   background-image: url("../../public/book.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   width: 100%;
   height: 100%;
 }
 #idea-4{
   background-image: url("../../public/universe.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   width: 100%;
   height: 100%;
 }
 #idea-5{
   background-image: url("../../public/flowers.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   width: 100%;
   height: 100%;
 }
@@ -112,13 +112,13 @@ button:hover {
   width: 100vw;
   background-image: url("../../public/bambi.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   height: 100%;
 }
 #idea-7{
   background-image: url("../../public/puppies.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   width: 100%;
   height: 100%;
 }
